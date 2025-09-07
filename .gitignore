@@ -4,6 +4,19 @@ node_modules/
 # Archivos de configuración de VS Code
 .vscode/
 
-# Archivos temporales
-*.log
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (variables privadas como contraseñas)
 .env
+
+# Archivos de logs
+*.log
+
+# Build del frontend
+frontend/build/
+
+# Archivos temporales
+*.tmp
+*.swp
