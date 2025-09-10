@@ -1,26 +1,27 @@
 # Stakeholders (Interesados)
 
 ## 1. Administrador
-- Agrega, edita o elimina productos.
-- Gestiona usuarios (creación, edición, inhabilitación).
+- Gestiona productos (crear, editar, eliminar).
+- Gestiona usuarios del sistema (crear, editar, inhabilitar).
 - Consulta reportes de ventas e inventario.
 
 ## 2. Vendedor
 - Registra ventas rápidas desde la tienda.
 - Gestiona productos dentro de una venta (añadir, modificar cantidades, eliminar).
-- Recibe cálculo de su pago diario con base en las ventas realizadas.
+- Visualiza su propio historial de ventas.
 
-## 3. Encargado de Inventario
-- Controla el stock actualizado en tiempo real.
-- Supervisa qué productos tienen mayor rotación para la reposición.
+## 3. Cliente
+- Consulta los productos disponibles en la tienda.
+- No realiza compras en línea, solo visualización.
 
-## 4. Cliente
-- Puede ingresar al sistema para **visualizar productos disponibles**.
-- No puede realizar compras en línea (solo consulta).
+## 4. Dueños del almacén
+- Toman decisiones estratégicas de compras e inventario.
+- Consultan reportes financieros y de ventas.
+- Aprueban políticas de uso del sistema.
 
-## 5. Gerente
-- Revisa reportes diarios y mensuales de ventas.
-- Exporta reportes en formatos prácticos (Excel o PDF).
-- Analiza tendencias de productos más vendidos para la toma de decisiones.
+## 5. Equipo de desarrollo
+- Diseña y construye el sistema (frontend, backend, base de datos).
+- Se encarga de pruebas, mantenimiento y mejoras continuas.
 
----
+
+
